@@ -2,3 +2,12 @@ tested together with other code from Leiserson's repository
 chapter 20
 PYTHONPATH="$(printf "%s:" */)" python bfs.py 
 PYTHONPATH="$(printf "%s:" Leiserson/clrsPython/*/)" python bfs.py 
+
+API:
+card_V = G.get_card_V()
+q = Queue(card_V)
+q.is_empty()
+vertex = q.dequeue()
+q.enqueue(vertex)
+edges = G.get_adj_list(vertex)
+v = edge.get_v()
