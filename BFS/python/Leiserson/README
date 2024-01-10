@@ -1,3 +1,4 @@
 tested together with other code from Leiserson's repository
 chapter 20
 PYTHONPATH="$(printf "%s:" */)" python bfs.py 
+PYTHONPATH="$(printf "%s:" Leiserson/clrsPython/*/)" python bfs.py 
